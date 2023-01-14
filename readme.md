@@ -22,12 +22,12 @@ there is an example project yyz you can download and check out, otherwise you ca
 | parameters.z is **bitcrushing**. this increases the size of the pixels if you use the pixelization effect. this value is a kind of interpolation, so if you want it to be pixel perfect you will want to use a value that goes into the width and height of your frame nice and evenly. for example, the pancake frame is 256x256 so i use power of two bitcrush values to keep it nice and aligned. the key is to use a value that goes into both your width and height evenly. |
 
 | vec2 dimensions                                              |
-| ------------------------------------------------------------ |
+| :----------------------------------------------------------- |
 | dimensions.x is the **width** of your frame. since this is a post processing effect, its the width of your application surface. it is not the size of your window, not the size of your view, not the size of your gui, and not the size of your viewport. |
 | dimensions.y is the **height** of your frame. just like width, this one is the height of your application surface. |
 
 | vec3 colors[4]                                               |
-| ------------------------------------------------------------ |
+| :----------------------------------------------------------- |
 | colors[0].xyz is the **normalized rgb** value of the darkest color in your palette. |
 | colors[1].xyz is the **normalized rgb** value of the dark color in your palette. |
 | colors[2].xyz is the **normalized rgb** value of the light color in your palette. |
