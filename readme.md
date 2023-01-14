@@ -16,7 +16,7 @@ the first one shows the sick pancake gif. the second one is the default gameboy 
 there is an example project yyz you can download and check out, otherwise you can copy and paste the fragment and vertex shaders from this repo into your own game. if you are new to shaders in gamemaker you may want to take some time to brush up on how they work, otherwise: here are the uniforms:
 
 | vec4 parameters                                              |
-| ------------------------------------------------------------ |
+| :----------------------------------------------------------- |
 | parameters.x is **brightness**. the palette swap is done by converting the frame to greyscale and then mapping the new colors to the frame based on how bright or dark they are. so raising or lowering the brightness will change how to colors effect your scene. a bright scene will have less of the darker color, and a dark scene will have less of the bright color. |
 | parameters.y is **dither**. dithering is done using a 4x4 bayer matrix to mix colors across bands. low number means less dithering, and high number means lots of dither. |
 | parameters.z is **bitcrushing**. this increases the size of the pixels if you use the pixelization effect. this value is a kind of interpolation, so if you want it to be pixel perfect you will want to use a value that goes into the width and height of your frame nice and evenly. for example, the pancake frame is 256x256 so i use power of two bitcrush values to keep it nice and aligned. the key is to use a value that goes into both your width and height evenly. |
