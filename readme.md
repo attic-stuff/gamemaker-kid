@@ -6,7 +6,7 @@ perhaps you always wanted your game to look like a gameboy, or a nokia. maybe yo
 
 gamemaker kid is all that—its a post processing shader that can crush your game into a pixelated mess of two, three, or even four colors swirling around a bayer matrix milkshake. for example here are a bunch of moving pictures of the effect applied to a sick gif of a pancake situation:
 
-| ![](C:\Users\cecil\Desktop\work\GM REPOs\gamemaker-kid\00.gif) | ![](C:\Users\cecil\Desktop\work\GM REPOs\gamemaker-kid\03.gif) | ![](C:\Users\cecil\Desktop\work\GM REPOs\gamemaker-kid\02.gif) | ![](C:\Users\cecil\Desktop\work\GM REPOs\gamemaker-kid\04.gif) |
+| ![](https://github.com/attic-stuff/gamemaker-kid/blob/main/00.gif) | ![](https://github.com/attic-stuff/gamemaker-kid/blob/main/03.gif) | ![](https://github.com/attic-stuff/gamemaker-kid/blob/main/02.gif) | ![](https://github.com/attic-stuff/gamemaker-kid/blob/main/04.gif) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 
 the first one shows the sick pancake gif. the second one is the default gameboy pallette with a smidge of bitcrushing and dithering. third shows a two color palette with high dithering and no bitcrushing, and the last one is a side by side of a custom palette with low dithering but high bitcrushing.
@@ -85,5 +85,5 @@ shader_set(pp_gamemakerkid) {
 }
 ```
 
-![](C:\Users\cecil\Desktop\work\GM REPOs\gamemaker-kid\insert.png)
+![](https://github.com/attic-stuff/gamemaker-kid/blob/main/insert.png)
 
