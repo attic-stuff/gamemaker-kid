@@ -4,7 +4,7 @@
 
 perhaps you always wanted your game to look like a gameboy, or a nokia. maybe you wanted to make the pixels crunchier? mayhaps you wanted your game to only use two colors or three colors and consider gameboy's four colors to be a luxury of wanton excess! and dithering what about dithering!?
 
-gamemaker kid is all that—its a post processing shader that can crush your game into a pixelated mess of two, three, or even four colors swirling around a bayer matrix milkshake. for example here are a bunch of moving pictures of the effect applied to a sick gif of a pancake situation:
+gamemaker kid is all that—its a post processing shader that can crush your game into a pixelated mess of two, three, or even four colors swirling around a bayer matrix milkshake. you are free to use this code for whatever just without any support or warranty. but, for example here are a bunch of moving pictures of the effect applied to a sick gif of a pancake situation:
 
 | ![](https://github.com/attic-stuff/gamemaker-kid/blob/main/00.gif) | ![](https://github.com/attic-stuff/gamemaker-kid/blob/main/03.gif) | ![](https://github.com/attic-stuff/gamemaker-kid/blob/main/02.gif) | ![](https://github.com/attic-stuff/gamemaker-kid/blob/main/04.gif) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
