@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Screenshot_16",
-    "path": "sprites/Screenshot_16/Screenshot_16.yy",
+    "name": "dinner",
+    "path": "sprites/dinner/dinner.yy",
   },
   "spriteMaskId": null,
   "visible": true,

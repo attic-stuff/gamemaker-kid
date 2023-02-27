@@ -20,11 +20,11 @@
   },
   "resources": [
     {"id":{"name":"breakfaststack","path":"sprites/breakfaststack/breakfaststack.yy",},"order":0,},
+    {"id":{"name":"dinner","path":"sprites/dinner/dinner.yy",},"order":9,},
     {"id":{"name":"an_object","path":"objects/an_object/an_object.yy",},"order":3,},
     {"id":{"name":"pp_gamemakerkid","path":"shaders/pp_gamemakerkid/pp_gamemakerkid.yy",},"order":4,},
     {"id":{"name":"font","path":"fonts/font/font.yy",},"order":2,},
     {"id":{"name":"backend","path":"scripts/backend/backend.yy",},"order":1,},
-    {"id":{"name":"Screenshot_16","path":"sprites/Screenshot_16/Screenshot_16.yy",},"order":9,},
     {"id":{"name":"a_scene","path":"rooms/a_scene/a_scene.yy",},"order":1,},
   ],
   "RoomOrderNodes": [

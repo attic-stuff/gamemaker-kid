@@ -3,11 +3,11 @@
     {"name":"stuffs","order":8,"path":"folders/stuffs.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"dinner","order":9,"path":"sprites/dinner/dinner.yy",},
     {"name":"an_object","order":3,"path":"objects/an_object/an_object.yy",},
     {"name":"pp_gamemakerkid","order":4,"path":"shaders/pp_gamemakerkid/pp_gamemakerkid.yy",},
     {"name":"font","order":2,"path":"fonts/font/font.yy",},
     {"name":"backend","order":1,"path":"scripts/backend/backend.yy",},
-    {"name":"Screenshot_16","order":9,"path":"sprites/Screenshot_16/Screenshot_16.yy",},
     {"name":"a_scene","order":1,"path":"rooms/a_scene/a_scene.yy",},
   ],
 }
