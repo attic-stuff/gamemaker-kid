@@ -13,14 +13,16 @@ void main() {
 	vec2 coordinates = floor((vv_tex * dimensions) / parameters.z);
 	vec2 uv = size * coordinates;
 	
-	vec3 pixel;
-	pixel = texture2D(gm_BaseTexture, uv).rgb;
 	int x = int(mod(coordinates.x, 4.0));
 	int y = int(mod(coordinates.y, 4.0));
-	pixel = pixel + (bayer[x][y] * parameters.y);
+	float dither = bayer[x][y] * parameters.y;
 	
-	float posterization = floor(dot(pixel, grey) * parameters.x);
-    
+	vec3 pixel;
+	pixel = texture2D(gm_BaseTexture, uv).rgb;
+	pixel = floor((pixel + dither) * 4.0) / 4.0;
+	
+	float posterization = floor(((dot(pixel, grey) * parameters.x) * 4.0) / 3.0);
+	
     pixel = mix(colors[0], colors[1], clamp(posterization, 0.0, 1.0));
     pixel = mix(pixel, colors[2], clamp(posterization - 1.0, 0.0, 1.0));
     pixel = mix(pixel, colors[3], clamp(posterization - 2.0, 0.0, 1.0));
